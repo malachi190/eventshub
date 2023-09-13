@@ -1,0 +1,93 @@
+#root {
+  --primary-color: #6930c3;
+}
+
+.createEventContainer {
+  width: 100%;
+  margin: 0 auto;
+}
+
+.createEventHeader {
+  text-align: center;
+  margin-top: 1rem;
+}
+
+.createEventHeader h2 {
+  font-weight: 400;
+  font-size: 300;
+}
+
+.mainInformationContainer {
+  display: flex;
+  flex-direction: row;
+  flex: 1 auto;
+  justify-content: space-between;
+  align-items: center;
+  margin-inline: 2.5rem;
+  position: relative;
+  top: 5rem;
+  padding-bottom: 3rem;
+}
+
+.mainSideImgContainer img {
+  width: 40rem;
+  height: 35rem;
+}
+
+.mainFormContainer {
+  padding: 1rem;
+  border: 3px solid var(--primary-color);
+  min-height: 40rem;
+  min-width: 30rem;
+  border-radius: 5px;
+}
+
+.mainFormContainer form {
+  position: relative;
+  top: 2rem;
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-start;
+  align-items: flex-start;
+  gap: 1rem;
+}
+
+.mainFormContainer form .form-group {
+  text-align: start;
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-start;
+  align-items: flex-start;
+  padding-inline: 2.5rem;
+}
+
+.form-group input, select{
+  min-width: 25rem;
+  min-height: 40px;
+  border: 0;
+  outline: 2px solid var(--primary-color);
+  transition: all ease-in .2s;
+  padding-inline: 0.5rem;
+}
+
+select, option{
+  font-family: "Montserrat", sans-serif;
+  padding-inline: 0.5rem;
+}
+
+form .submtiBtn{
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  width: 100%;
+}
+
+.submtiBtn button{
+  background-color: var(--primary-color);
+  color: #f4f5f4;
+  font-family: "Montserrat", sans-serif;
+  min-width: 10rem;
+  min-height: 2.5rem;
+  font-size: 17px;
+  font-weight: 500;
+}
